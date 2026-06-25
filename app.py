@@ -2,10 +2,8 @@
 AI-Based Network Intrusion Detection System (NIDS)
 ===================================================
 Real-time network threat detection using Machine Learning (Random Forest)
-Built for TCS / LTIMindtree / Presidio placement interviews
-
 Tech Stack: Python, Scikit-learn, Pandas, Streamlit
-Author: Your Name | ECE Final Year Project
+Author: Joy Christina J | ECE Final Year Project
 """
 
 import streamlit as st
@@ -456,8 +454,7 @@ st.markdown("""
     <p>Real-Time Threat Detection using Machine Learning (Random Forest Classifier)</p>
     <p style="margin-top:8px;">
         <span class="status-badge badge-live">● LIVE</span>
-        &nbsp;&nbsp;ECE Final Year Project &nbsp;|&nbsp; Built for TCS · LTIMindtree · Presidio Placement
-    </p>
+        &nbsp;&nbsp;ECE Final Year Project &nbsp;</p>
 </div>
 """, unsafe_allow_html=True)
 
