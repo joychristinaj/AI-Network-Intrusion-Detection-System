@@ -751,33 +751,8 @@ with tab3:
     ---
     
     ### Real-World Impact
-    - Companies like **Cisco, IBM, and Presidio** use AI-based NIDS in production
     - Reduces manual security analyst workload by **60-70%**
     - Detects zero-day attacks faster than rule-based systems
     
     ---
     
-    ### Interview Q&A Prep
-    
-    **Q: What dataset did you use?**
-    > "I used a synthetic dataset modeled after the KDD Cup 1999 dataset, which is
-    a benchmark dataset in network security research containing labeled attack traffic."
-    
-    **Q: Why Random Forest over Neural Networks?**
-    > "Random Forest gives comparable accuracy on structured tabular data like network
-    features, is much faster to train, and is easier to interpret — which is important
-    in security where you need to explain WHY a packet was flagged."
-    
-    **Q: What was your biggest challenge?**
-    > "Handling class imbalance — attacks are rare compared to normal traffic.
-    I addressed this using stratified sampling during train-test split to ensure
-    the model learned from all attack types fairly."
-    
-    **Q: How would you improve this?**
-    > "I'd integrate it with real packet capture using Scapy or Wireshark,
-    add deep learning (LSTM) for detecting sequential attack patterns,
-    and deploy it on a cloud server with a real-time database."
-    """)
-    
-    st.markdown("---")
-    st.info("💡 **Tip:** Practice explaining this project out loud in 2 minutes. That's all you need to impress any interviewer at TCS, LTIMindtree, or Presidio.")
