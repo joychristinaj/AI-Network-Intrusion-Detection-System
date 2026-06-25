@@ -59,8 +59,6 @@ ai_nids/
 
 ---
 
-## 🎯 Interview Talking Points
-
 ### One-line summary:
 > "I built an AI system that detects network attacks in real time using a
 > Random Forest classifier trained on network traffic features."
@@ -106,16 +104,5 @@ git push -u origin main
 
 ---
 
-## 💡 Interview Preparation Checklist
-
-- [ ] Can explain what a Random Forest is in simple terms
-- [ ] Can explain all 5 attack types
-- [ ] Know what KDD Cup 1999 dataset is
-- [ ] Can name 3 real-world companies using NIDS
-- [ ] Can explain feature importance
-- [ ] Have GitHub link ready to show
-- [ ] Prepared 2-minute project walkthrough speech
-
----
 
 *Built as a placement portfolio project — ECE Final Year 2026*
