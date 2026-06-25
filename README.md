@@ -92,17 +92,4 @@ ai_nids/
 
 ---
 
-## 🔗 Add to GitHub
-
-```bash
-git init
-git add .
-git commit -m "AI Network Intrusion Detection System - ECE Final Year Project"
-git remote add origin https://github.com/YOUR_USERNAME/ai-nids
-git push -u origin main
-```
-
----
-
-
 *Built as a placement portfolio project — ECE Final Year 2026*
